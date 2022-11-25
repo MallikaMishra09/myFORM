@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1 {
+            height: 600px;
+            width: 600px;
+            border: 1px solid  rgb(57, 160, 224);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            padding: 20px;
+            z-index: 999999999999999;
+            background-color:rgba(213, 235, 244, 0.484);
+
+
+        }
+
+        .d1:hover {
+            box-shadow: 2px 5px 4px 3px  rgb(29, 93, 133);
+        }
+
+        .s1 {
+            height: 750px;
+            width: 100%;
+            padding-top: 70px;
+            background-color: aqua;
+            z-index: -99999;
+            background-image: url(images/2593065.webp);
+            background-color: rgba(36, 36, 194, 0.158);
+            background: linear-gradient(90deg, rgba(36, 36, 194, 0.233) 10%, rgba(39,151,215,1) 60%, rgba(49, 173, 195, 0.347) 84%);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            opacity: 100%;
+            
+        }
+
+       
+
+        table,
+        tr,
+        td {
+            height: 60px;
+            padding-left: 20px;
+            opacity: 90%;
+        }
+
+        input {
+            width: 350px;
+            border: none;
+            border-radius: 15px;
+        }
+
+        label {
+            font-size: larger;
+            font-weight: bolder;
+
+        }
+        .c1{
+            width:100%;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(36,36,194);
+            background: linear-gradient(90deg, rgba(36,36,194,1) 17%, rgba(39,151,215,1) 53%, rgba(49,173,195,1) 88%);
+        }
+        .c1:hover{
+            background-color: rgba(36, 36, 194, 0.512);
+            background: linear-gradient(90deg, rgba(36, 36, 194, 0.768) 17%, rgba(39, 150, 215, 0.434) 53%, rgb(49, 173, 195) 88%);
+            box-shadow: 2px 5px 4px 3px  rgb(17, 67, 99);
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="s1">
+        <div class="d1" style="opacity: ;">
+            <form action="">
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <marquee behavior="scroll" direction="left">   
+                                <h1 style="margin-top:15px ;">Registration <span style="color: rgba(39,151,215,1) ">form</span></h1>
+                            </marquee>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Name</label></td>
+                        <td><input type="text" placeholder="   Enter your name" class="form control"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Password</label></td>
+                        <td><input type="password" placeholder="   ********" class="form control"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email</label></td>
+                        <td><input type="email" placeholder="" class="form control"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Adhaar</label></td>
+                        <td><input type="text" placeholder="   **** **** **90" class="form control"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Address</label></td>
+                        <td><input type="number" placeholder="" class="form control"></td>
+                     </tr>
+                     <tr><td colspan="2"><button class="c1">Submit</button></tr>
+
+                </table>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
